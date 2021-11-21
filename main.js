@@ -1,5 +1,5 @@
-canvas id= "getCanvas";
-getContext ("2d");
+canvas.id="myCanvas";
+canvas.getContext ("2d");
 
 function preload(){
 
