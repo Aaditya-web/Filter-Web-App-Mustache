@@ -1,7 +1,7 @@
 
 
 function preload(){
-mustache= loadImage("https://www.shutterstock.com/image-photo/curly-black-grey-moustache-isolated-on-500346064")
+mustache= loadImage("https://i.postimg.cc/3x3QzSGq/m.png")
 }
 
 
@@ -53,5 +53,6 @@ function gotPoses(results){
 
 
 function take_snapshot(){
+    document.getElementById("save_image").innerHTML "<div>VIDEO</div>";
     save("myFilteredImage.png");
 }
